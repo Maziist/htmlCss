@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/pages.css">
+    <title>Projet HTML/CSS</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="./index.html"><img id="logo" src="./assets/image/logo.png" alt="logo"></a>
+        </div>
+        <section>
+            <h1>DEVENIR DEVELOPPEUR WEB </h1>
+        
+        </section>
+        <nav>
+            <ul id="nav">
+                <li><a href="./html.html">HTML</a></li>
+                <li><a href="./css.html">CSS</a></li>
+                <li><a href="./java.html">JAVASCRIPT</a></li>
+                
+                <li id="contact"><a  href="./contact.html"><img src="./assets/image/contact.png" alt="contact"></a>
+                    <div id="popup" class="abs hidden">
+                        <p>Telephonez-nous :
+                            <br> 06060606
+                            <br>Ou envoyez-nous un mail :
+                        </p>
+                        <a href="./contact.html" class="ac-button">
+                            Nous contactez
+                        </a>
+                </li>
+               
+            </ul>
+            
+        </nav>
+
+    </header>
+    <main>
+        <div class="firstpart">
+            <article>
+            <h2>
+                CSS (Cascading Style Sheets)
+            </h2>
+            <p>
+                CSS permet de créer des pages web à l'apparence soignée. Cet article vous propose de lever le voile en expliquant ce qu'est CSS ; un exemple simple en présentera la syntaxe, puis quelques termes clés du langage seront introduits.
+            </p>
+        </article>
+    </div>
+    <div class="secondpart">
+        <article>
+        <h2>
+            Structure de base d'un fichier CSS
+        </h2>
+        <p>
+            Un fichier CSS est composé de règles de style qui ciblent des éléments HTML. Chaque règle de style est composée d'un sélecteur et d'un bloc de déclaration :
+
+        </p>
+        <img class="ima" src="./assets/image/css/cs1.jpg" alt="cs1">
+        <p>
+            Exemple :
+        </p>
+        <img class="ima" src="./assets/image/css/cs2.jpg" alt="cs2">
+ 
+            <p>
+                body : Le sélecteur qui cible l'élément < body>.
+            </p>
+            <p>
+                background-color et font-family : Les propriétés de style.
+            </p>
+            <p>
+                #f0f0f0 et Arial, sans-serif : Les valeurs des propriétés.
+            </p>
+    </article>
+    <article>
+        <h2> 
+            Méthodes d'Intégration du CSS
+        </h2>
+        <p>
+            Il existe trois façons d'ajouter du CSS à un document HTML :
+        </p>
+
+            <p>
+                <b>CSS en ligne :</b>
+                <br>Utilisation de l'attribut style directement dans les éléments HTML.
+            </p>    *
+                <img class="ima" src="./assets/image/css/cs3.jpg" alt="cs3">
+            
+           
+            <p>
+
+                <b>CSS interne :</b>
+                <br>Utilisation d'un bloc  style> dans la section  head> du document HTML.
+            </p>    
+                <img class="ima" src="./assets/image/css/cs4.jpg" alt="cs4">
+            
+           
+            <p>
+                <b>CSS externe :</b>
+                <br>Utilisation d'un fichier CSS séparé. Le fichier CSS est lié dans la section < head> du document HTML.
+            </p>        
+                <img class="ima" src="./assets/image/css/cs5.jpg" alt="cs5">
+
+        <p>
+            Et dans styles.css :
+            
+        </p>
+        <img class="ima" src="./assets/image/css/cs6.jpg" alt="cs6">
+    </article>
+    <article>
+        <h2>
+            Sélecteurs CSS
+        </h2>
+        <p>
+            Les sélecteurs permettent de cibler les éléments HTML auxquels les styles seront appliqués. Quelques sélecteurs courants :
+        </p>   
+
+            <p>
+                Sélecteurs de type : Ciblent tous les éléments d'un type donné.
+            </p>    
+                <img class="ima" src="./assets/image/css/cs11.jpg" alt="cs11">
+            
+            <p>
+                Sélecteurs de classe : Ciblent les éléments avec une classe spécifique.
+            </p>    
+                <img class="ima" src="./assets/image/css/cs12.jpg" alt="cs12">
+
+            <p>
+                Et dans HTML :
+                
+            </p>
+            <img class="ima" src="./assets/image/css/cs13.jpg" alt="cs13">
+
+            <p>
+                Sélecteurs d'ID : Ciblent un élément avec un ID spécifique.
+            </p>    
+                <img class="ima" src="./assets/image/css/cs22.jpg" alt="cs22">
+
+            <p>
+                Et dans HTML :
+                
+            </p>
+            <img class="ima" src="./assets/image/css/cs13.jpg" alt="cs13">
+
+            <p>
+                Sélecteurs d'attribut : Ciblent les éléments avec un attribut spécifique.
+            </p>    
+                <img class="ima" src="./assets/image/css/cs14.jpg" alt="cs14">
+
+    </article>
+    <article>
+        <h2>
+            Propriétés CSS
+        </h2>
+        <p>
+            Les propriétés CSS permettent de définir les styles. Voici quelques propriétés couramment utilisées :
+        </p>
+
+            <p>
+                Couleur et arrière-plan :
+            </p>    
+                <img class="ima" src="./assets/image/css/cs15.jpg" alt="cs15">
+            
+            <p>
+                Texte et police :
+            </p>    
+                <img class="ima" src="./assets/image/css/cs16.jpg" alt="cs16">
+
+            
+            <p>
+                Boîte de modèle (Box Model) :
+            </p>    
+                <img class="ima" src="./assets/image/css/cs17.jpg" alt="cs17">   
+            
+            <p>
+                Affichage et positionnement :
+            </p>
+                <img class="ima" src="./assets/image/css/cs18.jpg" alt="cs18">
+
+    </article>
+    <article>
+        <h2>
+            CSS Avancé
+        </h2>
+            <p>
+                Flexbox : Pour des mises en page flexibles et centrées.
+            </p>
+                <img class="ima" src="./assets/image/css/cs19.jpg" alt="cs19">
+
+            <p>
+           
+                Grid Layout : Pour des mises en page en grille complexes.
+            </p>    
+                <img class="ima" src="./assets/image/css/cs20.jpg" alt="cs20">
+            
+            
+            <p>
+                Animations et transitions :
+            </p>
+                <img class="ima" src="./assets/image/css/cs21.jpg" alt="cs21">
+
+    </article>
+    <article>
+        <h2>
+            Conclusion
+        </h2>
+        <p>
+            CSS est essentiel pour la conception visuelle des pages web. Il permet de créer des sites web attrayants, réactifs et bien structurés. En combinant HTML et CSS, les développeurs peuvent séparer le contenu de la présentation et créer des sites web plus maintenables et adaptables.
+        </p>
+    </article>
+</div>
+    </main>
+
+    <footer>
+
+        <img src="./assets/image/copyright.png" alt="copyright">
+        <p> Marina Tacite</p>
+    
+    </footer>
+    <script src="./assets/javascript/script.js"></script>    
+</body>
+
+</html>

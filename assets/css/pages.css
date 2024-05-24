@@ -1,0 +1,401 @@
+@font-face {
+    font-family: Game;
+    src: url(../fond/Game.ttf);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(../fond/Bebas.ttf);
+}
+
+@font-face {
+    font-family: Lotion;
+    src: url(../fond/Lotion-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sage;
+    src: url(../fond/Sage.ttf.otf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, white 0%, rgb(204, 175, 251) 100%);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+#logo {
+    width: 60px;
+    margin-left: 30px;
+}
+
+#contact img {
+    width: 70px;
+}
+
+.menu a:hover {
+    background-color: rgba(0, 47, 255, 0.292);
+    border: 20px;
+    border-radius: 50px;
+    padding: 20px;
+
+
+}
+
+main {
+    margin-top: 300px;
+}
+
+#nav {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+
+
+#nav a {
+    font-family: Bebas;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav a:hover {
+    background-color: white;
+    border: 20px;
+    border-radius: 50px;
+    padding: 20px;
+
+
+}
+.ac-button{
+    border-radius: 30px;
+    background: rgba(193, 109, 223, 0);
+    color: black;
+    margin-top: 50px;
+    letter-spacing:5px;
+    font-family: lotion;
+    font-size: 18px;
+    text-decoration: none;
+    border: 4px solid black;
+    padding: 12px;
+    border-style: inset;
+}
+
+h1 {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Game;
+}
+
+article {
+    text-align: center;
+}
+
+
+.firstpart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Sage;
+    
+
+}
+
+.firstpart p {
+    font-size: 15px;
+    text-align: center;
+    font-family: Lotion;
+    line-height: 40px;
+    width: 90%;
+    margin: auto;
+
+}
+
+.secondpart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+
+}
+
+.secondpart p {
+    font-size: 15px;
+    font-family: Lotion;
+    text-align: center;
+    line-height: 40px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+h3{
+    text-align: center;
+    font-size: 15px;
+    font-family: Sage;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h4{
+    text-align: center;
+    font-size: 14px;
+    font-family: Sage;
+    margin-top: 30px;
+    
+}
+
+li {
+    font-size: 18px;
+    font-family: Lotion;
+    padding-top: 30px;
+}
+
+
+img {
+    width: 700px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    padding: 50px;
+
+}
+
+footer img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+footer p {
+    font-family: lotion;
+    font-size: 15px;
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.container-form div{
+    width: 40%;
+}
+form {
+  
+    background-color: black;
+    padding: 100px;
+    border-radius: 50px;
+    margin: 100px;
+    
+}
+.information {
+    font-family: Lotion ;
+    font-size: 18px;
+    color: antiquewhite;
+    font-weight: bolder;
+    text-align: start;
+    line-height: 50px;
+    width: 40%;
+    margin: auto;
+
+}
+select{
+    
+    width: 200px;
+    height: 30px;
+}
+input{
+    
+    width: 100%;
+    height: 30px;
+    
+}
+#cocher{
+    width: 20px;
+    height: 10px;
+}
+.finish{
+    font-size: 10px;
+}
+.action-button{
+    border-radius: 30px;
+    width: 100%;
+    background: rgb(193, 109, 223);
+    color: antiquewhite;
+    margin-top: 50px;
+    letter-spacing:5px;
+    font-family: Bebas;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.action-button{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.abs {
+    position: absolute;
+   
+
+
+}
+
+#contact:hover  div {
+    display: block;
+}
+
+#popup{
+    
+    color: rgb(0, 0, 0);
+    bottom: -170px;
+    right: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+    background: linear-gradient(to bottom, white 0%, rgb(204, 175, 251) 100%);
+    border-radius: 30%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-family:Bebas ;
+}
+#popup button {
+    background: rgba(255,255,255,0);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Bebas;
+    font-size: 18px;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+h1 {
+    animation: infinite;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: ddv;
+}
+
+@keyframes ddv {
+    from {
+        color: rgb(90, 4, 148);
+        width: 90%;
+    }
+
+    to {
+        color: rgb(137, 15, 15);
+        width: 120%;
+    }
+
+}
+
+.ima {
+    view-timeline: --subjectReveal block;
+    animation-timeline: --subjectReveal;
+
+    animation-name: appear;
+    animation-fill-mode: both;
+    animation-duration: 1ms;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+
+
+
+@media (max-width : 770px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        position: static;
+        background: linear-gradient(to bottom,  rgb(204, 175, 251)0%,white 100%);
+
+    }
+    img{
+        width: 100%;
+    }
+
+    .firstpart {
+        flex-direction: column;
+        align-items: center;
+    }
+    .information{
+        font-size: 15px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    h1 {
+        animation: none;
+        color: black;
+    
+    }
+    #text{
+        width: 100%;
+    }
+    .action-button{
+        width: 100%;
+
+    }
+}

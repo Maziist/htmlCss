@@ -124,8 +124,10 @@ article {
 
 .firstpart {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+    margin: auto;
+
 
 }
 
@@ -278,6 +280,7 @@ input{
 
 
 
+
 .abs {
     position: absolute;
    
@@ -333,7 +336,7 @@ h1 {
 
     to {
         color: rgb(137, 15, 15);
-        width: 120%;
+        width: 110%;
     }
 
 }

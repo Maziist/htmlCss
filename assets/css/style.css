@@ -225,10 +225,9 @@ h2 {
     font-size: 20px;
 }
 .horizon article {
-    font-size: 18px;
+    font-size: 15px;
     font-family: IBMPlexSerifExtraLight;
-    gap: 20px;
-    padding: 40px;
+    gap: 15px;
     text-align: center;
 
 }
@@ -276,7 +275,7 @@ h1{
     }
     to{
        color: rgb(137, 15, 15) ;
-       width: 120%; 
+       width: 110%; 
     }
     
 }
